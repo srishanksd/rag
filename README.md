@@ -35,7 +35,7 @@ Open ./notebook/pipeline.ipynb and run all cells from top to bottom.
 ```bash
 pip install sentence-transformers
 ```
-> add some text or pdf files in the data folder respectively.
+> ### Add some text or pdf files in the data folder respectively.
 
 ------------------------------------------------------------------------
 
