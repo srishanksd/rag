@@ -1,9 +1,9 @@
 # Guidelines
-> `git clone "https://github.com/srishanksd/rag"`
-> `cd rag`
-> `uv venv`
-> `.venv\Scripts\Activate.ps1` (for windows)
-> `uv sync`
+>```git clone "https://github.com/srishanksd/rag"```  
+> ```cd rag```  
+> ```uv venv```  
+> ```.venv\Scripts\Activate.ps1```   (for windows)  
+> ```uv sync```  
 
 
 
