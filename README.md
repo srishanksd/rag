@@ -7,7 +7,7 @@
 > ```uv venv```  
 > ```.venv\Scripts\Activate.ps1```   (for windows)  
 > ```uv sync```  
->```in ./folder/pipeline.ipynb run all cells from the top to bottom.```  (if there is the error in teh sentence-transormers make one cell and pip install sentence-transformers)
+>```in ./notebook/pipeline.ipynb run all cells from the top to bottom.```  (if there is the error in teh sentence-transormers make one cell and pip install sentence-transformers)
 
 
 
