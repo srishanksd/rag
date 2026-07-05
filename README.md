@@ -2,13 +2,39 @@
 
 ------------------------------------------------------------------------
 
->```git clone "https://github.com/srishanksd/rag"```  
-> ```cd rag```  
-> ```uv venv```  
-> ```.venv\Scripts\Activate.ps1```   (for windows)  
-> ```uv sync```  
->```in ./notebook/pipeline.ipynb run all cells from the top to bottom.```  (if there is the error in teh sentence-transormers make one cell and pip install sentence-transformers)
+## Setup
 
+```bash
+git clone https://github.com/srishanksd/rag
+```
+
+```bash
+cd rag
+```
+
+```bash
+uv venv
+```
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+> For Windows PowerShell.
+
+```bash
+uv sync
+```
+
+```text
+Open ./notebook/pipeline.ipynb and run all cells from top to bottom.
+```
+
+> If you encounter an error related to `sentence-transformers`, create a new cell at the beginning of the notebook at the beginning and run below command:
+
+```bash
+pip install sentence-transformers
+```
 
 
 ------------------------------------------------------------------------
